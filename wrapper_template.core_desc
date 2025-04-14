@@ -13,7 +13,7 @@ import "tum_rvm.core_desc"
 
 import "${SEAL5_COREDSL_PATH}"
 
-Core RV32IX${SEAL5_EXTN} provides RV32I, RV32IC, Zifencei, RV32M, XExample, tum_csr, tum_ret, tum_semihosting {
+Core RV32IX${SEAL5_EXTN} provides RV32I, RV32IC, Zifencei, RV32M, X${SEAL5_EXTN}, tum_csr, tum_ret, tum_semihosting {
     architectural_state {
         XLEN=32;
         // definitions for the architecture wrapper
